@@ -1,7 +1,7 @@
 <?php 
   	$dbhost="172.30.1.210";	
 	$dbusername='sa';	
-	$dbuserpass='lip0';	
+	$dbuserpass='lip0'; 	
 	$dbname='conavicoop';
 	$db= mssql_connect ($dbhost, $dbusername, $dbuserpass);
     mssql_select_db($dbname);	
